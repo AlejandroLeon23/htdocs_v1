@@ -1,0 +1,113 @@
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+
+/*reglas generales*/
+*{
+    font-family: 'Playfair Display', Relaway;
+    text-decoration-line: none;
+}
+body{
+    font-family: Relaway;
+        
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 4rem;
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+}
+
+/*Media Query*/
+
+/** Reescribir colores */
+
+/** Productos */
+
+/** Clases */
+
+
+
+.hero{
+    background-image: url('/img/principal.jpg');
+    height: 25rem;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Main-Title{
+    color: #037BC0;
+    font-family: 'Playfair Display' !important;
+}
+.image-responsive{
+    width: 1.6rem;
+    height: Auto;
+    padding: 2em
+}
+
+.contaner-main{
+    margin: auto;
+    width:  80%;
+}
+.container-center
+{
+    text-align: center;
+}
+
+.container-section
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container-img{
+    width:auto;
+    max-height:200px;
+    background-size:cover;
+}
+
+.card-container{
+    margin: auto;
+    width: 100%;
+
+}
+.card-title{
+    font-weight:bold;
+}
+
+.card-price{
+   color:  red ;
+    font-weight:bold;
+    font-size: 20px;
+    
+}
+
+.card-cart{
+   margin: auto;
+   width: 90%;
+}
+
+.btn-cart{
+    margin: 10px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+}
+
+.btn-cart:hover{
+    background-color: rgb(89, 211, 89);
+    color: white;
+    font-weight: bold;
+}
